@@ -54,8 +54,8 @@ double xBS_IV(double spot, double strike, double mat, double rate, double obsPri
     } while(ub-lb>0.0001);
     return 0.5*(ub+lb);
 }
-double xMonteCarlo(double spot, double strike, double mat, double drift, double vol, int nPaths, int nSteps) {
-    return monteCarlo(spot, strike, mat, drift, vol, nPaths, nSteps);
+double xMonteCarlo(double spot, double strike, double mat, double rate, double vol, int nPaths, int nSteps) {
+    return monteCarlo(spot, strike, mat, rate, vol, nPaths, nSteps);
 }
 
 @end

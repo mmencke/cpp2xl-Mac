@@ -2,7 +2,7 @@
 #include "gaussians.h"
 #include "stdlib.h"
 
-double monteCarlo(double spot, double strike, double mat, double drift, double vol, int nPaths, int nSteps) {
+double monteCarlo(double spot, double strike, double mat, double rate, double vol, int nPaths, int nSteps) {
     double dt = mat / nSteps;
     double logS0 = log(spot);
     double logS;
@@ -18,7 +18,7 @@ double monteCarlo(double spot, double strike, double mat, double drift, double v
         for (int i=1;i<=nSteps;i++) {
             rnd = ((double)rand() / (double)(RAND_MAX));
             
-            logS = logS + (drift-0.5*vol*vol)*dt+vol*sqrt(dt)*invNormalCdf(rnd);
+            logS = logS + (rate-0.5*vol*vol)*dt+vol*sqrt(dt)*invNormalCdf(rnd);
         }
         spotAtT=exp(logS);
         if (spotAtT>strike) {
