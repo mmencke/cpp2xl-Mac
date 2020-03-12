@@ -10,7 +10,10 @@ Developed in Xcode 9.2. The C++ project (cpp2xl.xcodeproj) contains
 
 libcpp2xl.dylib is the Dynamic Library itself. This must be put in "/Library/Application Support/Microsoft" for Excel to be able to see it.
 
-Cpp2xl_v2.xlsm is the Macro-Enabled Excel workbook. The following VBA code imports "xBlackScholes" function from cpp2xl.m into Private VBA function "cppBlackScholes"
+Cpp2xl_v2.xlsm is the Macro-Enabled Excel workbook. 
+
+<p class="h1">Example VBA function</p>
+The following VBA code imports "xBlackScholes" function from cpp2xl.m into Private VBA function "cppBlackScholes"
 
 ```
 Private Declare PtrSafe Function cppBlackScholes Lib "/Library/Application Support/Microsoft/libcpp2xl.dylib" Alias "xBlackScholes" (ByVal spot As Double, ByVal strike As Double, ByVal mat As Double, ByVal rate As Double, ByVal vol As Double) As Double
