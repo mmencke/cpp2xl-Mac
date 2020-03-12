@@ -27,7 +27,7 @@ double monteCarlo(double spot, double strike, double mat, double rate, double vo
             payoff = 0;
         }
         
-        result = result + payoff;
+        result = result + exp(-rate * mat) * payoff;
     }
     
     return result / nPaths;
