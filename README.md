@@ -10,9 +10,10 @@ Developed in Xcode 9.2. The C++ project (cpp2xl.xcodeproj) contains
 
 libcpp2xl.dylib is the Dynamic Library itself. This must be put in "/Library/Application Support/Microsoft" for Excel to be able to see it.
 
-Cpp2xl_v2.xlsm is the Macro-Enabled Excel workbook. 
+Cpp2xl_v2.xlsm is the Macro-Enabled Excel workbook. It imports C++ functions as `BlackScholes(spot, strike, mat, rate, vol)`, which is the Black-Scholes formula, `BlackScholesIV(spot, strike, mat, rate, obsPrice)`, which finds Black-Scholes implicit volatility and `BlackScholesMonteCarlo(spot, strike, mat, rate, vol, nPaths, nSteps)`, which runs Monte Carlo simulations for Black-Scholes call options.
 
-<p class="h1">Example VBA function</p>
+## Example VBA function
+
 The following VBA code imports "xBlackScholes" function from cpp2xl.m into Private VBA function "cppBlackScholes"
 
 ```
