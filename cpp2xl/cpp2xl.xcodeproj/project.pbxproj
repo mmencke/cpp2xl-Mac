@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E26910124191BA300626E5F /* monteCarlo.h in Sources */ = {isa = PBXBuildFile; fileRef = 2E26910024191BA300626E5F /* monteCarlo.h */; };
-		2EDCBA9A2418DCE3003BA7AB /* cpp2xl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDCBA992418DCE3003BA7AB /* cpp2xl.h */; };
-		2EDCBA9C2418DCE3003BA7AB /* cpp2xl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCBA9B2418DCE3003BA7AB /* cpp2xl.m */; };
-		2EDCBAA32418E4A6003BA7AB /* gaussians.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDCBAA22418E4A6003BA7AB /* gaussians.h */; };
-		2EDCBAA52418E623003BA7AB /* blackScholes.h in Sources */ = {isa = PBXBuildFile; fileRef = 2EDCBAA42418E623003BA7AB /* blackScholes.h */; };
+		2ECDCA2B255FF35B00E92FB3 /* cpp2xl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ECDCA2A255FF35B00E92FB3 /* cpp2xl.hpp */; };
+		2ECDCA2F255FF35B00E92FB3 /* cpp2xl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCA2E255FF35B00E92FB3 /* cpp2xl.cpp */; };
+		2ECDCA3B255FF3A700E92FB3 /* gaussians.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ECDCA39255FF3A700E92FB3 /* gaussians.hpp */; };
+		2ECDCA3C255FF3A700E92FB3 /* monteCarlo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ECDCA3A255FF3A700E92FB3 /* monteCarlo.hpp */; };
+		2ECDCA3E255FF3D800E92FB3 /* blackScholes.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ECDCA3D255FF3D800E92FB3 /* blackScholes.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E26910024191BA300626E5F /* monteCarlo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = monteCarlo.h; sourceTree = "<group>"; };
-		2EDCBA962418DCE3003BA7AB /* libcpp2xl.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libcpp2xl.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EDCBA992418DCE3003BA7AB /* cpp2xl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpp2xl.h; sourceTree = "<group>"; };
-		2EDCBA9B2418DCE3003BA7AB /* cpp2xl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpp2xl.m; sourceTree = "<group>"; };
-		2EDCBAA22418E4A6003BA7AB /* gaussians.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaussians.h; sourceTree = "<group>"; };
-		2EDCBAA42418E623003BA7AB /* blackScholes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blackScholes.h; sourceTree = "<group>"; };
+		2ECDCA27255FF35B00E92FB3 /* libcpp2xl.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libcpp2xl.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECDCA2A255FF35B00E92FB3 /* cpp2xl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cpp2xl.hpp; sourceTree = "<group>"; };
+		2ECDCA2E255FF35B00E92FB3 /* cpp2xl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cpp2xl.cpp; sourceTree = "<group>"; };
+		2ECDCA39255FF3A700E92FB3 /* gaussians.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gaussians.hpp; sourceTree = "<group>"; };
+		2ECDCA3A255FF3A700E92FB3 /* monteCarlo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = monteCarlo.hpp; sourceTree = "<group>"; };
+		2ECDCA3D255FF3D800E92FB3 /* blackScholes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blackScholes.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EDCBA932418DCE3003BA7AB /* Frameworks */ = {
+		2ECDCA24255FF35B00E92FB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,30 +34,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EDCBA8D2418DCE3003BA7AB = {
+		2ECDCA1E255FF35B00E92FB3 = {
 			isa = PBXGroup;
 			children = (
-				2EDCBA982418DCE3003BA7AB /* cpp2xl */,
-				2EDCBA972418DCE3003BA7AB /* Products */,
+				2ECDCA29255FF35B00E92FB3 /* cpp2xl */,
+				2ECDCA28255FF35B00E92FB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2EDCBA972418DCE3003BA7AB /* Products */ = {
+		2ECDCA28255FF35B00E92FB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EDCBA962418DCE3003BA7AB /* libcpp2xl.dylib */,
+				2ECDCA27255FF35B00E92FB3 /* libcpp2xl.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EDCBA982418DCE3003BA7AB /* cpp2xl */ = {
+		2ECDCA29255FF35B00E92FB3 /* cpp2xl */ = {
 			isa = PBXGroup;
 			children = (
-				2EDCBA992418DCE3003BA7AB /* cpp2xl.h */,
-				2EDCBA9B2418DCE3003BA7AB /* cpp2xl.m */,
-				2EDCBAA22418E4A6003BA7AB /* gaussians.h */,
-				2EDCBAA42418E623003BA7AB /* blackScholes.h */,
-				2E26910024191BA300626E5F /* monteCarlo.h */,
+				2ECDCA2A255FF35B00E92FB3 /* cpp2xl.hpp */,
+				2ECDCA2E255FF35B00E92FB3 /* cpp2xl.cpp */,
+				2ECDCA3D255FF3D800E92FB3 /* blackScholes.hpp */,
+				2ECDCA39255FF3A700E92FB3 /* gaussians.hpp */,
+				2ECDCA3A255FF3A700E92FB3 /* monteCarlo.hpp */,
 			);
 			path = cpp2xl;
 			sourceTree = "<group>";
@@ -65,25 +65,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2EDCBA942418DCE3003BA7AB /* Headers */ = {
+		2ECDCA25255FF35B00E92FB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EDCBA9A2418DCE3003BA7AB /* cpp2xl.h in Headers */,
-				2EDCBAA32418E4A6003BA7AB /* gaussians.h in Headers */,
+				2ECDCA3C255FF3A700E92FB3 /* monteCarlo.hpp in Headers */,
+				2ECDCA2B255FF35B00E92FB3 /* cpp2xl.hpp in Headers */,
+				2ECDCA3B255FF3A700E92FB3 /* gaussians.hpp in Headers */,
+				2ECDCA3E255FF3D800E92FB3 /* blackScholes.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2EDCBA952418DCE3003BA7AB /* cpp2xl */ = {
+		2ECDCA26255FF35B00E92FB3 /* cpp2xl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EDCBA9F2418DCE3003BA7AB /* Build configuration list for PBXNativeTarget "cpp2xl" */;
+			buildConfigurationList = 2ECDCA32255FF35B00E92FB3 /* Build configuration list for PBXNativeTarget "cpp2xl" */;
 			buildPhases = (
-				2EDCBA922418DCE3003BA7AB /* Sources */,
-				2EDCBA932418DCE3003BA7AB /* Frameworks */,
-				2EDCBA942418DCE3003BA7AB /* Headers */,
+				2ECDCA23255FF35B00E92FB3 /* Sources */,
+				2ECDCA24255FF35B00E92FB3 /* Frameworks */,
+				2ECDCA25255FF35B00E92FB3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -91,56 +93,54 @@
 			);
 			name = cpp2xl;
 			productName = cpp2xl;
-			productReference = 2EDCBA962418DCE3003BA7AB /* libcpp2xl.dylib */;
+			productReference = 2ECDCA27255FF35B00E92FB3 /* libcpp2xl.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2EDCBA8E2418DCE3003BA7AB /* Project object */ = {
+		2ECDCA1F255FF35B00E92FB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Magnus Mencke";
 				TargetAttributes = {
-					2EDCBA952418DCE3003BA7AB = {
+					2ECDCA26255FF35B00E92FB3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 2EDCBA912418DCE3003BA7AB /* Build configuration list for PBXProject "cpp2xl" */;
+			buildConfigurationList = 2ECDCA22255FF35B00E92FB3 /* Build configuration list for PBXProject "cpp2xl" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2EDCBA8D2418DCE3003BA7AB;
-			productRefGroup = 2EDCBA972418DCE3003BA7AB /* Products */;
+			mainGroup = 2ECDCA1E255FF35B00E92FB3;
+			productRefGroup = 2ECDCA28255FF35B00E92FB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2EDCBA952418DCE3003BA7AB /* cpp2xl */,
+				2ECDCA26255FF35B00E92FB3 /* cpp2xl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2EDCBA922418DCE3003BA7AB /* Sources */ = {
+		2ECDCA23255FF35B00E92FB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EDCBA9C2418DCE3003BA7AB /* cpp2xl.m in Sources */,
-				2EDCBAA52418E623003BA7AB /* blackScholes.h in Sources */,
-				2E26910124191BA300626E5F /* monteCarlo.h in Sources */,
+				2ECDCA2F255FF35B00E92FB3 /* cpp2xl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2EDCBA9D2418DCE3003BA7AB /* Debug */ = {
+		2ECDCA30255FF35B00E92FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		2EDCBA9E2418DCE3003BA7AB /* Release */ = {
+		2ECDCA31255FF35B00E92FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,56 +243,56 @@
 			};
 			name = Release;
 		};
-		2EDCBAA02418DCE3003BA7AB /* Debug */ = {
+		2ECDCA33255FF35B00E92FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
-				ONLY_ACTIVE_ARCH = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
-		2EDCBAA12418DCE3003BA7AB /* Release */ = {
+		2ECDCA34255FF35B00E92FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
-				ONLY_ACTIVE_ARCH = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2EDCBA912418DCE3003BA7AB /* Build configuration list for PBXProject "cpp2xl" */ = {
+		2ECDCA22255FF35B00E92FB3 /* Build configuration list for PBXProject "cpp2xl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EDCBA9D2418DCE3003BA7AB /* Debug */,
-				2EDCBA9E2418DCE3003BA7AB /* Release */,
+				2ECDCA30255FF35B00E92FB3 /* Debug */,
+				2ECDCA31255FF35B00E92FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EDCBA9F2418DCE3003BA7AB /* Build configuration list for PBXNativeTarget "cpp2xl" */ = {
+		2ECDCA32255FF35B00E92FB3 /* Build configuration list for PBXNativeTarget "cpp2xl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EDCBAA02418DCE3003BA7AB /* Debug */,
-				2EDCBAA12418DCE3003BA7AB /* Release */,
+				2ECDCA33255FF35B00E92FB3 /* Debug */,
+				2ECDCA34255FF35B00E92FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2EDCBA8E2418DCE3003BA7AB /* Project object */;
+	rootObject = 2ECDCA1F255FF35B00E92FB3 /* Project object */;
 }

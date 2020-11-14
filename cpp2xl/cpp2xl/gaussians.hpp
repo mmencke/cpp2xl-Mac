@@ -7,7 +7,7 @@
 //  Gaussian functions
 
 //  Normal density
-double normalDens(double x)
+inline double normalDens(double x)
 {
     return x<-10.0 || 10.0<x ? 0.0 : exp(-0.5*x*x) / 2.506628274631;
 }
@@ -15,7 +15,7 @@ double normalDens(double x)
 //	Normal CDF (N in Black-Scholes)
 //  Zelen and Severo's approximation (1964)
 //  See https://en.wikipedia.org/wiki/Normal_distribution#Numerical_approximations_for_the_normal_CDF
-double normalCdf(double x)
+inline double normalCdf(double x)
 {
 	if (x < -10.0) return 0.0;
 	if (x > 10.0) return 1.0;
@@ -41,7 +41,7 @@ double normalCdf(double x)
 //  Beasley-Springer-Moro algorithm
 //  Moro, The full Monte, Risk, 1995
 //  See Glasserman, Monte Carlo Methods in Financial Engineering, p 68
-double invNormalCdf(double p)
+inline double invNormalCdf(double p)
 {
     bool sup = p > 0.5;
     double up = sup ? 1.0 - p : p;
