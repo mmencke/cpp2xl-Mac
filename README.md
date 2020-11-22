@@ -18,7 +18,7 @@ Cpp2xl.xlsm is the Macro-Enabled Excel workbook. It imports C++ functions as `Bl
 
 ## Example VBA function
 
-The following VBA code imports `xBlackScholes` function from *cpp2xl.m* into Private VBA function `cppBlackScholes`
+The following VBA code imports `xBlackScholes` function from *cpp2xl.cpp* into Private VBA function `cppBlackScholes`
 
 ```
 Private Declare PtrSafe Function cppBlackScholes _
